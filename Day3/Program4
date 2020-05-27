@@ -1,0 +1,13 @@
+def duplicate(List):
+ duplicatelist=[]
+ for x in List:
+    if x not in duplicateList:
+      duplicatelist.append(x）
+ return duplicateList
+
+size=int(input("Enter the no of elementsyou want to add in List:))
+print("Enter the element in List one by one")
+List = []
+for i in range(size):
+   List.append(input())
+print("List after removing the duplicates is:",duplicate(List))
